@@ -1,5 +1,5 @@
-requests==2.31.0
+requests==2.33.0
 beautifulsoup4==4.12.2
-aiohttp==3.9.1
-tqdm==4.66.1
-python-dotenv==1.0.0 
+aiohttp==3.14.3
+tqdm==4.66.3
+python-dotenv==1.2.2 
