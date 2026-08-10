@@ -40,7 +40,20 @@ cd [event-name]
 
 ### 3. Writeup Template
 
-Use this for each challenge:
+**Use the provided templates in `templates/` directory:**
+
+- `challenge-writeup-template.md` - For individual challenges
+- `ctf-competition-readme-template.md` - For competition overview
+- `REHOST-template.md` - Optional, if challenge is reproducible
+
+**Quick setup:**
+```bash
+cd ~/code/conferences/ctfs/[YEAR]/[event-name]/web/challenge-1/
+cp ~/code/conferences/ctfs/templates/challenge-writeup-template.md README.md
+# Edit README.md with challenge details
+```
+
+**Or use this inline template:**
 
 ```markdown
 # Challenge Name
