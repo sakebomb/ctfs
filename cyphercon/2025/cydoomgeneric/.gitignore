@@ -1,0 +1,13 @@
+*.DS_Store
+*.WAD
+*.egg-info/
+*.o
+*.obj
+*.so
+*.so.map
+.ropeproject/
+.savegame/
+__pycache__/
+build/
+cydoomgeneric/cydoomgeneric.c
+dist/

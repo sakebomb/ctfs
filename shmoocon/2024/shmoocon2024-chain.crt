@@ -1,0 +1,122 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 0 (0x0)
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, ST=Radius, L=Shmoocon, O=Labs/emailAddress=labs@shmoocon.net, CN=Shmoocon Labs Certificate Authority
+        Validity
+            Not Before: Jan  4 02:00:49 2024 GMT
+            Not After : Jan 19 02:00:49 2024 GMT
+        Subject: C=US, ST=Radius, O=Labs, CN=Shmoocon Labs Radius Certificate/emailAddress=labs@shmoocon.org
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:f5:86:94:8c:88:17:ba:51:fd:a5:66:b7:d4:17:
+                    86:00:1d:92:28:b9:ee:fa:92:c7:64:6e:ae:17:2a:
+                    6c:5b:6d:bf:4d:bb:32:2c:a7:fa:90:c8:7a:81:a9:
+                    1f:0c:1a:3f:a2:00:2d:47:d9:79:ed:a5:bd:a1:64:
+                    28:28:23:a7:a1:6e:33:cd:bf:26:a9:e8:49:30:03:
+                    6f:b8:03:45:fe:1a:58:0a:35:b7:c1:31:38:50:4f:
+                    8f:84:98:34:76:65:08:9c:2a:5a:05:5a:0c:ba:46:
+                    2d:bd:98:cb:aa:cd:7c:c8:f6:9e:f9:57:53:32:a7:
+                    57:3c:51:64:7d:2e:34:8c:92:54:6f:ce:cc:e9:fe:
+                    79:69:40:13:b6:c6:07:0a:f4:a1:0b:7e:81:5b:21:
+                    12:90:36:8f:a4:aa:7f:3f:f0:f5:46:c5:e2:00:e3:
+                    dd:28:b9:91:ce:59:a0:c7:db:31:ee:52:48:78:89:
+                    a2:2b:75:f3:53:20:92:60:5e:f2:4b:ce:6d:de:a1:
+                    31:88:01:e1:e5:f9:30:0e:95:7b:1d:34:77:cb:97:
+                    81:7c:4b:8d:41:bc:9f:db:01:66:07:c1:46:bc:83:
+                    88:ef:5b:cd:cc:9e:8d:e5:22:89:10:b0:fb:8b:25:
+                    d4:dd:f0:55:1a:8a:32:1d:28:58:be:48:2f:35:c7:
+                    fe:5d
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Key Usage: 
+                Digital Signature, Non Repudiation, Key Encipherment
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, 1.3.6.1.5.5.7.3.14
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://www.example.com/example_ca.crl
+
+            Authority Information Access: 
+                OCSP - URI:http://www.example.org/ocsp
+
+            X509v3 Subject Alternative Name: 
+                DNS:radius.shmoocon.net, DNS:172.16.0.22, DNS:172.16.4.22, othername:<unsupported>
+    Signature Algorithm: sha256WithRSAEncryption
+         57:b1:5b:56:b8:57:c2:76:8d:c0:85:10:3f:78:1f:13:9e:76:
+         99:c7:90:1f:24:84:70:37:7c:f8:6b:44:56:f3:96:27:02:5c:
+         c8:f2:af:04:09:11:19:da:01:6d:17:1d:e8:bb:24:7d:09:6e:
+         6e:38:70:8d:1b:a1:82:ff:15:ce:d4:7b:05:a4:82:f3:2c:11:
+         20:cc:b0:f4:46:e1:d4:b7:51:bf:5a:3c:12:1e:15:c4:37:93:
+         48:fe:1a:85:49:d5:49:0f:bd:a9:76:f5:84:96:2d:99:0e:e5:
+         4a:b6:94:10:e2:b5:cc:87:3d:28:8c:46:fd:5b:8c:20:f3:0c:
+         00:85:7e:cb:b2:16:2e:84:e4:1a:6f:b1:d2:61:a9:5b:11:32:
+         4d:9d:ff:39:50:cd:a4:91:32:5a:71:bd:8c:08:3a:36:a0:4c:
+         30:e3:21:7a:cc:1e:c1:3e:eb:f5:86:f8:64:43:34:f6:61:08:
+         d6:25:8e:98:b3:ef:db:dd:c0:b4:76:ee:4d:14:14:f6:a1:b8:
+         d9:7f:b4:fd:62:94:2a:81:c8:38:5d:b9:db:ee:56:21:55:6b:
+         5d:a4:7a:58:c8:9b:9f:c1:6c:bf:24:9b:20:73:cf:f7:1f:8e:
+         0f:5c:2c:60:52:ee:bc:f5:e1:a8:05:11:be:ad:17:ef:e2:9f:
+         22:de:96:e2
+-----BEGIN CERTIFICATE-----
+MIIEijCCA3KgAwIBAgIBADANBgkqhkiG9w0BAQsFADCBkDELMAkGA1UEBhMCVVMx
+DzANBgNVBAgMBlJhZGl1czERMA8GA1UEBwwIU2htb29jb24xDTALBgNVBAoMBExh
+YnMxIDAeBgkqhkiG9w0BCQEWEWxhYnNAc2htb29jb24ubmV0MSwwKgYDVQQDDCNT
+aG1vb2NvbiBMYWJzIENlcnRpZmljYXRlIEF1dGhvcml0eTAeFw0yNDAxMDQwMjAw
+NDlaFw0yNDAxMTkwMjAwNDlaMHoxCzAJBgNVBAYTAlVTMQ8wDQYDVQQIDAZSYWRp
+dXMxDTALBgNVBAoMBExhYnMxKTAnBgNVBAMMIFNobW9vY29uIExhYnMgUmFkaXVz
+IENlcnRpZmljYXRlMSAwHgYJKoZIhvcNAQkBFhFsYWJzQHNobW9vY29uLm9yZzCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPWGlIyIF7pR/aVmt9QXhgAd
+kii57vqSx2RurhcqbFttv027Miyn+pDIeoGpHwwaP6IALUfZee2lvaFkKCgjp6Fu
+M82/JqnoSTADb7gDRf4aWAo1t8ExOFBPj4SYNHZlCJwqWgVaDLpGLb2Yy6rNfMj2
+nvlXUzKnVzxRZH0uNIySVG/OzOn+eWlAE7bGBwr0oQt+gVshEpA2j6Sqfz/w9UbF
+4gDj3Si5kc5ZoMfbMe5SSHiJoit181MgkmBe8kvObd6hMYgB4eX5MA6Vex00d8uX
+gXxLjUG8n9sBZgfBRryDiO9bzcyejeUiiRCw+4sl1N3wVRqKMh0oWL5ILzXH/l0C
+AwEAAaOCAQIwgf8wCQYDVR0TBAIwADALBgNVHQ8EBAMCBeAwHQYDVR0lBBYwFAYI
+KwYBBQUHAwEGCCsGAQUFBwMOMDYGA1UdHwQvMC0wK6ApoCeGJWh0dHA6Ly93d3cu
+ZXhhbXBsZS5jb20vZXhhbXBsZV9jYS5jcmwwNwYIKwYBBQUHAQEEKzApMCcGCCsG
+AQUFBzABhhtodHRwOi8vd3d3LmV4YW1wbGUub3JnL29jc3AwVQYDVR0RBE4wTIIT
+cmFkaXVzLnNobW9vY29uLm5ldIILMTcyLjE2LjAuMjKCCzE3Mi4xNi40LjIyoBsG
+CCsGAQUFBwgIoA8MDSouZXhhbXBsZS5jb20wDQYJKoZIhvcNAQELBQADggEBAFex
+W1a4V8J2jcCFED94HxOedpnHkB8khHA3fPhrRFbzlicCXMjyrwQJERnaAW0XHei7
+JH0Jbm44cI0boYL/Fc7UewWkgvMsESDMsPRG4dS3Ub9aPBIeFcQ3k0j+GoVJ1UkP
+val29YSWLZkO5Uq2lBDitcyHPSiMRv1bjCDzDACFfsuyFi6E5BpvsdJhqVsRMk2d
+/zlQzaSRMlpxvYwIOjagTDDjIXrMHsE+6/WG+GRDNPZhCNYljpiz79vdwLR27k0U
+FPahuNl/tP1ilCqByDhdudvuViFVa12keljIm5/BbL8kmyBzz/cfjg9cLGBS7rz1
+4agFEb6tF+/inyLeluI=
+-----END CERTIFICATE-----
+-----BEGIN CERTIFICATE-----
+MIIE8TCCA9mgAwIBAgIUdI9HZQtS2uLDa/Ora0eXZ1E+6LcwDQYJKoZIhvcNAQEL
+BQAwgZAxCzAJBgNVBAYTAlVTMQ8wDQYDVQQIDAZSYWRpdXMxETAPBgNVBAcMCFNo
+bW9vY29uMQ0wCwYDVQQKDARMYWJzMSAwHgYJKoZIhvcNAQkBFhFsYWJzQHNobW9v
+Y29uLm5ldDEsMCoGA1UEAwwjU2htb29jb24gTGFicyBDZXJ0aWZpY2F0ZSBBdXRo
+b3JpdHkwHhcNMjQwMTA0MDIwMDQ5WhcNMjQwMTE5MDIwMDQ5WjCBkDELMAkGA1UE
+BhMCVVMxDzANBgNVBAgMBlJhZGl1czERMA8GA1UEBwwIU2htb29jb24xDTALBgNV
+BAoMBExhYnMxIDAeBgkqhkiG9w0BCQEWEWxhYnNAc2htb29jb24ubmV0MSwwKgYD
+VQQDDCNTaG1vb2NvbiBMYWJzIENlcnRpZmljYXRlIEF1dGhvcml0eTCCASIwDQYJ
+KoZIhvcNAQEBBQADggEPADCCAQoCggEBALWFf3oZNOia5Bv0zGPGzQJdkqsZd1ul
+Ci8CyjLwxK8Yr19eCcO3ZqwXSjXX3KbG9q+SVPMI+4T5PF0B4fbLPxh2O9NiraZx
+r/NrcbBr+zjoVwmdwzGdlFktUSjweKZfTC7P8uGAG03NMyJLXbS2qa5kVvFe8AET
+aZELkIkeF/yWgH/iojNYRx2hSZhAqlFrEoJbZQxG6OOwzkvk7N0YptVcqMEz8aJP
+Q2aMNYOjUfzLuNuOjGHpch7OkIhdwGfxASxM4D6IFSzwB/+h+L7u4kMOGb2ONJy8
+Q63JFHM0hqtZEWA3pSwRo5fLKjNT2T7Y/hzifoEtRDVnfUhdQT3FiqMCAwEAAaOC
+AT8wggE7MB0GA1UdDgQWBBQ+oaMf+ps9qakcXRWosofFI/ZAPjCB0AYDVR0jBIHI
+MIHFgBQ+oaMf+ps9qakcXRWosofFI/ZAPqGBlqSBkzCBkDELMAkGA1UEBhMCVVMx
+DzANBgNVBAgMBlJhZGl1czERMA8GA1UEBwwIU2htb29jb24xDTALBgNVBAoMBExh
+YnMxIDAeBgkqhkiG9w0BCQEWEWxhYnNAc2htb29jb24ubmV0MSwwKgYDVQQDDCNT
+aG1vb2NvbiBMYWJzIENlcnRpZmljYXRlIEF1dGhvcml0eYIUdI9HZQtS2uLDa/Or
+a0eXZ1E+6LcwDwYDVR0TAQH/BAUwAwEB/zA2BgNVHR8ELzAtMCugKaAnhiVodHRw
+Oi8vd3d3LmV4YW1wbGUuY29tL2V4YW1wbGVfY2EuY3JsMA0GCSqGSIb3DQEBCwUA
+A4IBAQAHRJQcKEkXps92FFyGioByrPi2kWPatkCDOnpqbKUEz2EqnFf3WV/pV7yR
+MpIW7SdEv/iMESrMc835l2XqjsXFrWDpdwNaykeBU4U6wMHrGL+Fr7nBw6bGCKrl
+FtWiO5qpN/S05tLJ+Pd4zQuhgTKWSJ5/3/h5zblZ8QtmCanDb2ljqglGDuhNXnWp
+OMpxAw8thNgfrncebhCYsSevrYcn+4JgjGAhkiB56EO+JJVfLA2ERc6EzE2We0le
+66ZJNGEpSan+PNUgQvK+HAZfqW+H7eGtR+FjIcLHGc4lxmnVwsi63X05lIRe75QG
+fUiXp2eKVRFiAKlkXOHVyH7n7VXZ
+-----END CERTIFICATE-----

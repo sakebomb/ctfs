@@ -9,7 +9,7 @@ Organized solutions, tools, and lessons from capture-the-flag competitions. Focu
 ### DEF CON 34 - HalCTF (Aug 2026) - 13th Place
 **Autonomous AI Agent CTF** - Built 6 specialized agents solving challenges via LLM reasoning, MCP integration, and exploit automation.
 
-[Full Repository](https://github.com/sakebomb/halctf) | [Quick Summary](./2026/defcon-34-halctf/summary.md)
+[Full Repository](https://github.com/sakebomb/halctf) | [Quick Summary](./defcon/2026-halctf/summary.md)
 
 **Key Challenges Solved:**
 - Kanto Region (450pts) - SAT solving, ECDSA forgery, nested SSRF
@@ -30,14 +30,28 @@ Organized solutions, tools, and lessons from capture-the-flag competitions. Focu
 
 ## All Competitions
 
-| Year | Event | Rank | Categories | Writeups | Status |
-|------|-------|------|------------|----------|--------|
-| 2026 | DEF CON 34 - HalCTF | 13th | AI, Web, Crypto, Pwn, Misc | [Full Repo](https://github.com/sakebomb/halctf) | Complete |
+Organized **by event, then year** (e.g. `defcon/2024/`, `shmoocon/2025/`). Large challenge
+files are archived privately and not included in this repo — the writeup is the deliverable.
+
+| Year | Event | Writeup | Status |
+|------|-------|---------|--------|
+| 2026 | DEF CON 34 - HalCTF | [Full Repo](https://github.com/sakebomb/halctf) · [dir](./defcon/2026-halctf/) | Complete |
+| 2025 | Cyphercon | [writeup](./cyphercon/2025/writeup.md) | Scaffold |
+| 2025 | Shmoocon | [writeup](./shmoocon/2025/writeup.md) | Scaffold (notes) |
+| 2024 | DEF CON 32 | [writeup](./defcon/2024/writeup.md) | Scaffold |
+| 2024 | Cyphercon | [writeup](./cyphercon/2024/writeup.md) | Scaffold |
+| 2024 | Chrononaut | [writeup](./chrononaut/2024/writeup.md) | Scaffold |
+| 2024 | Shmoocon | [writeup](./shmoocon/2024/writeup.md) | Scaffold (notes) |
+| 2023 | DEF CON 31 | [writeup](./defcon/2023/writeup.md) | Scaffold |
+| 2023 | Hackfortress | [writeup](./hackfortress/2023/writeup.md) | Scaffold |
+| 2022 | DEF CON 30 | [writeup](./defcon/2022/writeup.md) | Scaffold |
+| 2022 | Shmoocon | (artifacts only) | Artifacts |
+| 2020 | DEF CON 28 Safe Mode | [writeup](./defcon/2020-safemode/writeup.md) | Scaffold |
 
 ## By Category
 
 ### AI Security
-- [HalCTF - Full Competition](./2026/defcon-34-halctf/) - Autonomous agent development, LLM jailbreaking
+- [HalCTF - Full Competition](./defcon/2026-halctf/) - Autonomous agent development, LLM jailbreaking
 
 ### Web Exploitation
 - [Kanto - Silph Co](./categories/web.md#silph-co) - Nested SSRF chain

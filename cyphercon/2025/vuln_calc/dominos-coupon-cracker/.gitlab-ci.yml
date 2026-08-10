@@ -1,0 +1,24 @@
+stages:
+  - test
+  - deploy
+
+variables:
+  # This is a base64 encoded secret that should never be exposed
+  SECRET_COUPON: "ZmxhZ3tBbGxXb3JrQW5kTm9QbGF5TWFrZXNOdXR0eUFkdWxsYm9pLXV3dX0="
+
+test:
+  stage: test
+  script:
+    - echo "Running tests..."
+    - python -m pytest tests/
+  artifacts:
+    paths:
+      - test-results/
+
+deploy:
+  stage: deploy
+  script:
+    - echo "Deploying application..."
+    - echo "Using secret coupon: $SECRET_COUPON"
+  environment:
+    name: production 
