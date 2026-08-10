@@ -1,0 +1,42 @@
+version: '3'
+
+services:
+  flask-app:
+    build: ./flask_app
+    ports:
+      - "50001:5000"
+    restart: always
+
+  gitlab:
+    image: 'gitlab/gitlab-ce:latest'
+    hostname: 'gitlab'
+    environment:
+      GITLAB_OMNIBUS_CONFIG: |
+        external_url 'http://0.0.0.0:50002'
+        nginx['listen_port'] = 50002
+        nginx['listen_addresses'] = ['*']
+        gitlab_rails['initial_root_password'] = 'omgwtfbbq'
+        gitlab_rails['initial_shared_runners_registration_token'] = "nuttytoken"
+        gitlab_rails['initial_root_email'] = "nutty@local.host"
+        gitlab_rails['gitlab_shell_ssh_port'] = 2222
+    ports:
+      - '50002:50002'
+      - '443:443'
+      - '2222:22'
+    volumes:
+      - 'gitlab_config:/etc/gitlab'
+      - 'gitlab_logs:/var/log/gitlab'
+      - 'gitlab_data:/var/opt/gitlab'
+    shm_size: '256m'
+    restart: always
+
+  nutty-calculator:
+    build: ./nutty_calculator
+    ports:
+      - "31337:31337"
+    restart: always
+
+volumes:
+  gitlab_config:
+  gitlab_logs:
+  gitlab_data: 
