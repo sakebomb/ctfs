@@ -48,3 +48,6 @@ credentials/
 # Large files
 *.pcap
 *.dump
+
+# CTF build-time secrets (generated, never commit)
+.gitlab_token
